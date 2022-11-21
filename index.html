@@ -7,10 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proyecto banderas</title>
     <link rel="stylesheet" href="css/style-ejercicio1-resuelto.css">
-    <script src="js/script.js" defer></script>
+    <script src="js/script.js" async></script>
 </head>
 
 <body>
+
     <h1>Trabajando con banderas</h1>
     <h2>Cristian Alejandro Santos Cotom</h2>
 
@@ -19,15 +20,15 @@
         <form action="#">
             <fieldset>
                 <legend>Seleccione su bandera favorita</legend>
-                <select name="seleccionar_banderas" id="seleccion" onchange="seleccionarBandera()">
+                <select name="banderas" id="seleccion" onchange="seleccionarBandera()">
                     <!-- <option value="1">Francia</option> -->
-                    <option value="1" autofocus disabled>Seleccione</option>
-                    <option value="2">Guatemala</option>
-                    <option value="3">Nigeria y India</option>
+                   <label>seleccionar bandera</label> <option value="seleccion1" selected disabled>Seleccione</option>
+                    <option value="1">Guatemala</option>
+                    <option value="2">Nigeria y India</option>
                     <!-- <option value="4">Nigeria</option> -->
-                    <option value="4">Paises Bajos y francia</option>
-                    <option value="5">Suecia</option>
-                    <option value="6">Suiza</option>
+                    <option value="3">Paises Bajos y francia</option>
+                    <option value="4">Suecia</option>
+                    <option value="5">Suiza</option>
 
                 </select>
 
@@ -103,6 +104,7 @@
             <div class="parte3"></div>
         </div>
     </article>
+
 </body>
 
 </html>
