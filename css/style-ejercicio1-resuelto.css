@@ -1,3 +1,11 @@
+/*body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}*/
+
+
 /*Estilos ejercicio 1 NO MODIFICAR*/
 #ejercicio1 .contenedor {
     width: 25%;
@@ -262,3 +270,7 @@
     height: 15%;
 }
 
+/* agregando estilos al form */
+.mi_contenedor{
+    width: 25%;
+}
